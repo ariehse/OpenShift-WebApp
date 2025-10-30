@@ -5,7 +5,7 @@ var port = process.env.PORT || 8080;
 
 router.get('/', function (req, res) {
   res.send(`Hello World!`);
-});sto
+});
 
 app.use('/', router);
 app.listen(port);
